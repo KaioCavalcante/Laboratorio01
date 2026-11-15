@@ -1,7 +1,5 @@
 name: Hello Flow
-on:
-  schedule:
-    - cron: 2-59/5 * * * *
+on: push
 jobs:
   first-job:
     runs-on: ubuntu-latest
